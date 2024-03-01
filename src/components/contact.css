@@ -1,0 +1,51 @@
+.Contact {
+    max-width: 600px;
+    margin: 120px auto; /* Center vertically and horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+
+.Contact h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(0, 145, 55);
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: rgb(0, 145, 55);
+    padding: 14px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px dashed  rgb(0, 145, 55);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+}
+
+button[type="submit"]:hover {
+    transition: .4s;
+    border: 2px dashed  rgb(0, 145, 55);
+    background-color: #fff;
+    color:  rgb(0, 145, 55);
+}
